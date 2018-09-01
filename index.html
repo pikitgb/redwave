@@ -1,0 +1,541 @@
+<!doctype html>
+
+<html ⚡="">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Red Wave Imperative</title>
+  <link rel="canonical" href="https://www.ampstart.com/templates/article.amp">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+  <script async="" src="https://cdn.ampproject.org/v0.js"></script>
+
+  <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+
+  <noscript>
+    <style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+  </noscript>
+
+
+
+  <link rel="stylesheet" href="/flexboxgrid.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+slick
+  <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"/> -->
+  <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.3/css/swiper.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.3/css/swiper.min.css">
+  <link rel="stylesheet" href="./styles.css">
+
+
+
+  <script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async=""></script>
+  <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async=""></script>
+  <script custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js" async=""></script>
+  <script custom-element="amp-instagram" src="https://cdn.ampproject.org/v0/amp-instagram-0.1.js" async=""></script>
+  <script custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js" async=""></script>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+
+
+  <!-- <script type="text/javascript" src="slick/slick.js"></script> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.3/js/swiper.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.3/js/swiper.min.js"></script> -->
+
+</head>
+<body>
+
+  <!-- Start Navbar -->
+  <header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger  pr2  ">☰
+    </div>
+  </header>
+
+  <!-- Start Sidebar -->
+  <amp-sidebar id="header-sidebar" class="ampstart-sidebar px3" layout="nodisplay">
+    <div class="flex justify-start items-center ampstart-sidebar-header">
+      <div role="button" aria-label="close sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger items-start">✕</div>
+    </div>
+    <nav class="ampstart-sidebar-nav ampstart-nav">
+      <ul class="list-reset m0 p0 ampstart-label">
+        <li class="ampstart-nav-item ampstart-nav-dropdown relative ">
+
+          <!-- Start Dropdown-inline -->
+          <amp-accordion layout="container" disable-session-states="" class="ampstart-dropdown">
+            <section>
+              <header>Photography</header>
+              <ul class="ampstart-dropdown-items list-reset m0 p0">
+                <li class="ampstart-dropdown-item"><a href="#" class="text-decoration-none">Animals</a></li>
+                <li class="ampstart-dropdown-item"><a href="#" class="text-decoration-none">Photo of the day</a></li>
+              </ul>
+            </section>
+          </amp-accordion>
+          <!-- End Dropdown-inline -->
+        </li>
+        <li class="ampstart-nav-item ampstart-nav-dropdown relative ">
+
+          <!-- Start Dropdown-inline -->
+          <amp-accordion layout="container" disable-session-states="" class="ampstart-dropdown">
+            <section>
+              <header>Travel</header>
+              <ul class="ampstart-dropdown-items list-reset m0 p0">
+                <li class="ampstart-dropdown-item"><a href="#" class="text-decoration-none">Urban</a></li>
+                <li class="ampstart-dropdown-item"><a href="#" class="text-decoration-none">Tropical</a></li>
+              </ul>
+            </section>
+          </amp-accordion>
+          <!-- End Dropdown-inline -->
+        </li>
+      </ul>
+    </nav>
+
+
+
+    <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
+      <li>
+        <a href="#" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="22.2" viewbox="0 0 53 49"><title>Twitter</title><path d="M45 6.9c-1.6 1-3.3 1.6-5.2 2-1.5-1.6-3.6-2.6-5.9-2.6-4.5 0-8.2 3.7-8.2 8.3 0 .6.1 1.3.2 1.9-6.8-.4-12.8-3.7-16.8-8.7C8.4 9 8 10.5 8 12c0 2.8 1.4 5.4 3.6 6.9-1.3-.1-2.6-.5-3.7-1.1v.1c0 4 2.8 7.4 6.6 8.1-.7.2-1.5.3-2.2.3-.5 0-1 0-1.5-.1 1 3.3 4 5.7 7.6 5.7-2.8 2.2-6.3 3.6-10.2 3.6-.6 0-1.3-.1-1.9-.1 3.6 2.3 7.9 3.7 12.5 3.7 15.1 0 23.3-12.6 23.3-23.6 0-.3 0-.7-.1-1 1.6-1.2 3-2.7 4.1-4.3-1.4.6-3 1.1-4.7 1.3 1.7-1 3-2.7 3.6-4.6" class="ampstart-icon ampstart-icon-twitter"></path></svg></a>
+      </li>
+      <li>
+        <a href="#" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="23.6" viewbox="0 0 56 55"><title>Facebook</title><path d="M47.5 43c0 1.2-.9 2.1-2.1 2.1h-10V30h5.1l.8-5.9h-5.9v-3.7c0-1.7.5-2.9 3-2.9h3.1v-5.3c-.6 0-2.4-.2-4.6-.2-4.5 0-7.5 2.7-7.5 7.8v4.3h-5.1V30h5.1v15.1H10.7c-1.2 0-2.2-.9-2.2-2.1V8.3c0-1.2 1-2.2 2.2-2.2h34.7c1.2 0 2.1 1 2.1 2.2V43" class="ampstart-icon ampstart-icon-fb"></path></svg></a>
+      </li>
+      <li>
+        <a href="#" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 54 54"><title>instagram</title><path d="M27.2 6.1c-5.1 0-5.8 0-7.8.1s-3.4.4-4.6.9c-1.2.5-2.3 1.1-3.3 2.2-1.1 1-1.7 2.1-2.2 3.3-.5 1.2-.8 2.6-.9 4.6-.1 2-.1 2.7-.1 7.8s0 5.8.1 7.8.4 3.4.9 4.6c.5 1.2 1.1 2.3 2.2 3.3 1 1.1 2.1 1.7 3.3 2.2 1.2.5 2.6.8 4.6.9 2 .1 2.7.1 7.8.1s5.8 0 7.8-.1 3.4-.4 4.6-.9c1.2-.5 2.3-1.1 3.3-2.2 1.1-1 1.7-2.1 2.2-3.3.5-1.2.8-2.6.9-4.6.1-2 .1-2.7.1-7.8s0-5.8-.1-7.8-.4-3.4-.9-4.6c-.5-1.2-1.1-2.3-2.2-3.3-1-1.1-2.1-1.7-3.3-2.2-1.2-.5-2.6-.8-4.6-.9-2-.1-2.7-.1-7.8-.1zm0 3.4c5 0 5.6 0 7.6.1 1.9.1 2.9.4 3.5.7.9.3 1.6.7 2.2 1.4.7.6 1.1 1.3 1.4 2.2.3.6.6 1.6.7 3.5.1 2 .1 2.6.1 7.6s0 5.6-.1 7.6c-.1 1.9-.4 2.9-.7 3.5-.3.9-.7 1.6-1.4 2.2-.7.7-1.3 1.1-2.2 1.4-.6.3-1.7.6-3.5.7-2 .1-2.6.1-7.6.1-5.1 0-5.7 0-7.7-.1-1.8-.1-2.9-.4-3.5-.7-.9-.3-1.5-.7-2.2-1.4-.7-.7-1.1-1.3-1.4-2.2-.3-.6-.6-1.7-.7-3.5 0-2-.1-2.6-.1-7.6 0-5.1.1-5.7.1-7.7.1-1.8.4-2.8.7-3.5.3-.9.7-1.5 1.4-2.2.7-.6 1.3-1.1 2.2-1.4.6-.3 1.6-.6 3.5-.7h7.7zm0 5.8c-5.4 0-9.7 4.3-9.7 9.7 0 5.4 4.3 9.7 9.7 9.7 5.4 0 9.7-4.3 9.7-9.7 0-5.4-4.3-9.7-9.7-9.7zm0 16c-3.5 0-6.3-2.8-6.3-6.3s2.8-6.3 6.3-6.3 6.3 2.8 6.3 6.3-2.8 6.3-6.3 6.3zm12.4-16.4c0 1.3-1.1 2.3-2.3 2.3-1.3 0-2.3-1-2.3-2.3 0-1.2 1-2.3 2.3-2.3 1.2 0 2.3 1.1 2.3 2.3z" class="ampstart-icon ampstart-icon-instagram"></path></svg></a>
+      </li>
+      <li>
+        <a href="#" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML E-mail"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="18.4" viewbox="0 0 56 43"><title>email</title><path d="M10.5 6.4C9.1 6.4 8 7.5 8 8.9v21.3c0 1.3 1.1 2.5 2.5 2.5h34.9c1.4 0 2.5-1.2 2.5-2.5V8.9c0-1.4-1.1-2.5-2.5-2.5H10.5zm2.1 2.5h30.7L27.9 22.3 12.6 8.9zm-2.1 1.4l16.6 14.6c.5.4 1.2.4 1.7 0l16.6-14.6v19.9H10.5V10.3z" class="ampstart-icon ampstart-icon-email"></path></svg></a>
+      </li>
+    </ul>
+
+    <ul class="ampstart-sidebar-faq list-reset m0">
+      <li class="ampstart-faq-item"><a href="#" class="text-decoration-none">About</a></li>
+      <li class="ampstart-faq-item"><a href="#" class="text-decoration-none">Contact</a></li>
+    </ul>
+  </amp-sidebar>
+  <!-- End Sidebar -->
+  <!-- End Navbar -->
+
+  <!-- Start Fullpage Hero -->
+  <figure class="ampstart-image-fullpage-hero m0 relative mb4 " style="margin-top: 2em">
+    <amp-img class="background-image" width="404" height="720" alt="The Year&#39;s Best Animal Photos" layout="responsive" src="/img/backgrounds/background1.jpg" media="(max-width: 415px)"></amp-img>
+    <amp-img class="background-image" height="720" alt="The Year&#39;s Best Animal Photos" layout="fixed-height" src="/img/backgrounds/background1.jpg" media="(min-width: 416px)"></amp-img>
+    <figcaption class="absolute top-0 right-0 bottom-0 left-0">
+      <header class="p3">
+        <h1 class="ampstart-fullpage-hero-heading mb3">
+          <span class="ampstart-fullpage-hero-heading-text">
+            The Red Wave Imperative
+          </span>
+          <span style="font-size: .3em; float: right">
+            <a href="#">Get the Book on Amazon</a>
+          </span>
+        </h1>
+
+        <span class="ampstart-image-credit h4">
+          By <a href="#" role="author" class="text-decoration-none">Alan Schein</a>
+        </span>
+      </header>
+      <footer class="absolute left-0 right-0 bottom-0">
+        <a class="ampstart-readmore py3 caps line-height-2 text-decoration-none center block h5" href="#content"><span class="ampstart-readmore-text px1">Preview Book Content</span></a>
+      </footer>
+
+      <div class="container-fluid">
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Book top  -->
+            <div class="row">
+              <div class="col-md-5 col-sm-4">
+                 <img src="/img/book_only.png" height="340" width="210" layout="responsive" alt="" style="border-radius: 10px">
+              </div>
+              <div class="col-md-6 col-sm-8 d-md-inline d-xs-none d-sm-none">
+                <h1>IF AMERICA'S FUTURE CONCERNS YOU</h1>
+                <h3>READ THIS BOOK - BEFORE EVER VOTING AGAIN</h3>
+                <button class="ampstart-btn mt1"> <i class="fa fa-shopping-cart"></i> Purchase the book</button>
+                <button class="ampstart-btn mt1"> <i class="fa fa-book-reader"></i>  Read Foreword</button>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Author top -->
+          <div class="col-md-6 d-sm-none d-md-flex d-xs-none">
+              <div class="row">
+                <div class="col-md-2 col-md-offset-2">
+                   <img src="/img/author_photo.jpg" alt="" class="circle" height="120">
+                </div>
+                <div class="col-md-7 ml3">
+                  <h3>ALAN SCHEIN</h3>
+                  <p>
+                    <i>NATIONALLY RECOGNIZED CONSUMER ADVOCATE</i>
+                  </p>
+
+                  <p style="text-align: justify; font-size: 1.2em; background-image: url(/img/background-white.png); border-radius: 4px" class="px2 py3">
+                    SCHEIN authored “Create Your Own Wealth” that predicted  the 2008 mortgage crisis 4 years before it happened. He is the “Father of 401K Plans“, the nation’s leading retirement plan. Red Wave Imperative details how armed with disinformation, lies and false narratives, the New Democratic Party has weaponized mainstream media, the Deep State and others to illegally takeover without firing a shot
+                    <a href="#" >Read more...</a> </p>
+                </div>
+              </div>
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+
+
+    </figcaption>
+  </figure>
+
+
+
+  <div class="container">
+
+    <div class="row" style="justify-content: center">
+
+      <div class="col-md-7 col-sm-12 col-xs-10">
+        <div class="center-lg mb3 ampstart-subtitle">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star" style="font-size: 1.3em"></i>
+          <i class="fa fa-star" style="font-size: 2em"></i>
+          <i class="fa fa-star" style="font-size: 1.3em"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p class="text-center center ampstart-initialcap-big mb4 ampstart-title-lg">American Voters took back their country in 2016...</p>
+
+        <span class="block pt2 mb2 border-top">LEARN THE TRUTH ABOUT DEMOCRATIC PARTY’S SECRET AGENDA TO CONTROL AMERICA’S WEALTH</span>
+        <p class="mb4 ">The Read Wave Imperative will open your eyes and it will show the real situation:</p>
+        <p class="mb4">
+          <ul class="h3">
+            <li>Secret Alliances with FBI, CIA, IRS</li>
+            <li>Create Class Warfare and Hatred</li>
+            <li>Create a Political Stalemate</li>
+            <li>Mislead Public with Fake Surveys</li>
+            <li>Frighten Public with Paid Protestors</li>
+            <li>And much more</li>
+          </ul>
+
+        </p>
+        <p class="mb4 ">Vestibulum eu varius dolorxxx. Praesent sagittis magna sem, non bibendum quam aliquam et. Sed et tristique mi. Quisque porta lorem et nulla lacinia gravida. Nullam semper lobortis sem, interdum tempus tellus. Proin accumsan imperdiet leo at vulputate. Nulla euismod placerat finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="mb4 ">Aenean ante erat, egestas a justo eu, sollicitudin convallis nulla. Fusce ex est, ornare in odio eu, venenatis dapibus purus. Etiam sit amet orci quam. Proin lobortis lobortis tellus, non elementum nunc consequat ac. Suspendisse eu purus sit amet dolor elementum mattis ut in odio.</p>
+
+      </div>
+
+    </div>
+
+
+    <div class="row">
+
+
+          <div class="col-md-12">
+
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                      <div class="row">
+                        <div class="col-md-5 col-sm-1 col-xs-2">
+                          <h1>We Must Save America Before It's Late</h1>
+                          <hr class="xs-hide sm-hide">
+                          <p class="pl4 ml4 line-height-4">
+                            The New Democrats have now embraced the use of the German Socialist Party’s strategy that facts don’t matter and you can use misinformation, and big lies to portray Conservative individuals and groups, as dangerous and even sub-human. This strategy that was promoted in the infamous political 1930 manifesto “Mein Kampf” suggests if you repeat untruth often enough, from as many sources as possible, it will become believed and you can use it to create deep feelings of hatred and discontent.
+                          </p>
+                        </div>
+                        <div class="col-md-5 col-sm-3 col-xs-2 xs-hide sm-hide">
+                          <img src="/img/hillary_lie.png" alt="Description of the photograph." class=""></img>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <!--  Slide 2 -->
+                    <div class="swiper-slide">
+                      <div class="row">
+                        <div class="col-md-6 col-sm-3 col-xs-2">
+                          <img src="/img/mexican_gansters.jpg" height="400" alt="Description of the photograph." layout="responsive" class=""></img>
+
+                        </div>
+                        <div class="col-md-5 col-sm-3 col-xs-4 pr4">
+                          <h1 class="start-md">Learn About MS-13’S Rape, Murder And Fear Agenda</h1>
+                          <hr>
+                          <p class="start-md">MS-13 (Mara Salvatrucha) is a gang that originated in the illegal El Salvadoran immigrant community in Los Angeles, and is now be- lieved to have more than ten thousand members across the United States, and is growing every day.</p>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--  Slide 3 -->
+                    <div class="swiper-slide">
+                      <div class="row">
+                        <div class="col-md-5 col-sm-3 col-xs-4 pr4">
+                          <h1 class="end-md">Venezuelans Forced To Eat Rats And Garbage To Survive</h1>
+                          <hr>
+                          <p class="end-md pl4 ml4 justify">MS-13 (Mara Salvatrucha) is a gang that originated in the illegal El Salvadoran immigrant community in Los Angeles, and is now be- lieved to have more than ten thousand members across the United States, and is growing every day.</p>
+
+                        </div>
+                        <div class="col-md-6 col-sm-3 col-xs-2">
+                          <img src="/img/venezuelan_street.jpg" height="400" alt="Description of the photograph." layout="responsive" class=""></img>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+
+            </div>
+
+          </div>
+
+
+    </div>
+
+  </div>
+
+
+  <div class="container-fluid center-xs center-md center-sm" style="height: 230px; background-color: #ca1f2d;">
+    <div class="row center-xs">
+
+      <div class="col-md-12 border-top">
+
+        <div class="container" >
+          <div class="row mt4" >
+            <div class="col-md-1">
+              <img src="/img/book_only.png" height="160" alt="">
+            </div>
+            <div class="col-md-11">
+              <div class="h1 c-white">
+
+                The Red Wave Imperative
+                <br>
+                <button href="something" class="ampstart-btn" style="animation-delay:0.07s">Purchase Book</button>
+                <button href="something" class="ampstart-btn" style="animation-delay:0.07s"> <i class="fa fa-user"></i> Get on Amazon</button>
+                <button href="something" class="ampstart-btn" style="animation-delay:0.07s">Read Foreword</button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!-- End Fullpage Hero -->
+  <main id="" role="main" class="">
+    <article class="">
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Start Image with Caption -->
+      <!-- <figure class="ampstart-image-with-caption m0 relative mb4">
+        <amp-img src="/img/gorilla.png" width="756" height="520" alt="Description of the photograph." layout="responsive" class=""></amp-img>
+        <figcaption class="h5 mt1 px3">
+          Description of the photograph.
+          <span class="ampstart-image-credit block bold">
+            Taken by
+            <a href="#" role="author">D.F. Roy</a>
+          </span>
+        </figcaption>
+      </figure> -->
+      <!-- End Image with Caption -->
+
+
+      <!-- Start carousel -->
+
+
+
+      <amp-carousel width="756" height="638" layout="responsive" type="slides" class="mb4" style="display: none">
+
+
+        <!-- Start Image with Caption -->
+        <figure class="ampstart-image-with-caption m0 relative mb4">
+          <amp-img src="/img/zebras.jpg" width="756" height="520" alt="Zebras grazing." layout="responsive" class=""></amp-img>
+          <figcaption class="h5 mt1 px3">
+            Zebras grazing.
+            <span class="ampstart-image-credit block bold">
+              Taken by
+              <a href="#" role="author">Anna Q.</a>
+            </span>
+          </figcaption>
+        </figure>
+        <!-- End Image with Caption -->
+
+
+        <!-- Start Image with Caption -->
+        <figure class="ampstart-image-with-caption m0 relative mb4">
+          <amp-img src="/img/sheep.jpg" width="756" height="520" alt="Sheep in a field." layout="responsive" class=""></amp-img>
+          <figcaption class="h5 mt1 px3">
+            Sheep in a field.
+            <span class="ampstart-image-credit block bold">
+              Taken by
+              <a href="#" role="author">L. Fischer</a>
+            </span>
+          </figcaption>
+        </figure>
+        <!-- End Image with Caption -->
+
+
+        <!-- Start Image with Caption -->
+        <figure class="ampstart-image-with-caption m0 relative mb4">
+          <amp-img src="/img/camels.jpg" width="756" height="520" alt="Camels on a beach." layout="responsive" class=""></amp-img>
+          <figcaption class="h5 mt1 px3">
+            Camels on a beach.
+            <span class="ampstart-image-credit block bold">
+              Taken by
+              <a href="#" role="author">Mali D.</a>
+            </span>
+          </figcaption>
+        </figure>
+        <!-- End Image with Caption -->
+      </amp-carousel>
+      <!-- End carousel -->
+
+
+
+      <!-- ugly narrow section? -->
+
+      <!-- <p class="mb4 px3">Mauris aliquet eleifend lacinia. Maecenas non finibus ante, et maximus urna. In non enim a lectus molestie tincidunt. Curabitur eu tortor odio. Aliquam bibendum elit risus, vitae rutrum ex placerat eget.</p> -->
+
+
+
+      <!-- <p class="mb4 px3">Integer fringilla eu lacus sit amet tristique. Nulla sagittis fermentum porta. Aenean convallis nulla eu nulla lobortis, sit amet sagittis mauris tincidunt. Praesent sed efficitur odio. Quisque et sollicitudin nisi. Fusce sed auctor ligula. Suspendisse potenti. Nam hendrerit sollicitudin enim, non aliquet lacus congue et.</p> -->
+
+
+      <!-- Start Related article -->
+      <section class="ampstart-related-article-section p3 mb4 border-top border-bottom">
+        <h2 class="ampstart-heading ampstart-label m0 mb3">Related article</h2>
+        <article class="ampstart-related-article">
+          <amp-img src="/img/sloth.png" width="656" height="248" layout="responsive" alt="" class="mb3"></amp-img>
+          <h3 class="ampstart-heading h4 m0 mb3">Sloths on the move</h3>
+          <p class="line-height-4 mb3">
+            Duis nisl sem, gravida sed sapien sed, ultrices varius sem. Aliquam venenatis aliquam lobortis. Nam et euismod eros. Nunc gravida egestas arcu, sed laoreet nunc rutrum ultrices. Nunc fermentum consequat laoreet.
+          </p>
+          <a href="#" class="ampstart-rekated-article-readmore block text-decoration-none ampstart-label">Scroll Down to Learn more</a>
+        </article>
+      </section>
+      <!-- End Related article -->
+
+      <p class="mb4 px3"> Etiam egestas velit ut purus dictum, vel placerat turpis convallis. Nullam metus urna, posuere ut elit eu, imperdiet consequat metus. Phasellus blandit at lorem ut mollis. Donec vel ligula at erat mattis aliquet eget quis nibh.</p>
+
+
+      <!-- Start Socialbox -->
+      <div class="ampstart-social-box mb4">
+        <amp-social-share type="twitter" aria-label="Share this on Twitter"></amp-social-share>
+        <amp-social-share type="facebook" aria-label="Share this on Facebook" data-param-text="Hello world" data-param-href="https://example.com/?ref=URL" data-param-app_id="145634995501895"></amp-social-share>
+        <amp-social-share type="gplus" aria-label="Share this on Google Plus"></amp-social-share>
+
+        <amp-social-share type="pinterest" aria-label="Share this on pin trest"></amp-social-share>
+        <amp-social-share type="email" aria-label="Share this with E-mail" data-param-subject="Hello World" data-param-body="What's up?"></amp-social-share>
+      </div>
+      <!-- End Socialbox -->
+
+
+      <!-- Start Related Section -->
+      <section class="ampstart-related-section mb4 px3">
+        <h2 class="h3 mb1">Recommended for you</h2>
+        <ul class="ampstart-related-section-items list-reset flex flex-wrap m0">
+          <li class="col-12 sm-col-4 md-col-4 lg-col-4 pr2 py2">
+
+
+            <!-- Start Image with Caption -->
+            <figure class="ampstart-image-with-caption m0 relative mb4">
+              <amp-img src="/img/bird.png" width="233" height="202" alt="Bullseye view: Bird Watching 101" layout="responsive" class=""></amp-img>
+              <figcaption class="h5 mt1 px3">
+                Bullseye view: Bird Watching 101
+              </figcaption>
+            </figure>
+            <!-- End Image with Caption -->
+          </li>
+          <li class="col-12 sm-col-4 md-col-4 lg-col-4 pr2 py2">
+
+
+            <!-- Start Image with Caption -->
+            <figure class="ampstart-image-with-caption m0 relative mb4">
+              <amp-img src="/img/cheetah.png" width="233" height="202" alt="The Worlds fastest animal" layout="responsive" class=""></amp-img>
+              <figcaption class="h5 mt1 px3">
+                The Worlds fastest animal
+              </figcaption>
+            </figure>
+            <!-- End Image with Caption -->
+          </li>
+          <li class="col-12 sm-col-4 md-col-4 lg-col-4 pr2 py2">
+
+
+            <!-- Start Image with Caption -->
+            <figure class="ampstart-image-with-caption m0 relative mb4">
+              <amp-img src="/img/cow.png" width="233" height="202" alt="Cattle Ranch roundup" layout="responsive" class=""></amp-img>
+              <figcaption class="h5 mt1 px3">
+                Cattle Ranch roundup
+              </figcaption>
+            </figure>
+            <!-- End Image with Caption -->
+          </li>
+        </ul>
+      </section>
+      <!-- End Related Section -->
+    </article>
+  </main>
+
+  <!-- Start Footer -->
+  <footer class="ampstart-footer flex flex-column items-center px3 ">
+
+
+    <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
+      <li>
+        <a href="#" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="22.2" viewbox="0 0 53 49"><title>Twitter</title><path d="M45 6.9c-1.6 1-3.3 1.6-5.2 2-1.5-1.6-3.6-2.6-5.9-2.6-4.5 0-8.2 3.7-8.2 8.3 0 .6.1 1.3.2 1.9-6.8-.4-12.8-3.7-16.8-8.7C8.4 9 8 10.5 8 12c0 2.8 1.4 5.4 3.6 6.9-1.3-.1-2.6-.5-3.7-1.1v.1c0 4 2.8 7.4 6.6 8.1-.7.2-1.5.3-2.2.3-.5 0-1 0-1.5-.1 1 3.3 4 5.7 7.6 5.7-2.8 2.2-6.3 3.6-10.2 3.6-.6 0-1.3-.1-1.9-.1 3.6 2.3 7.9 3.7 12.5 3.7 15.1 0 23.3-12.6 23.3-23.6 0-.3 0-.7-.1-1 1.6-1.2 3-2.7 4.1-4.3-1.4.6-3 1.1-4.7 1.3 1.7-1 3-2.7 3.6-4.6" class="ampstart-icon ampstart-icon-twitter"></path></svg></a>
+      </li>
+      <li>
+        <a href="#" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="23.6" viewbox="0 0 56 55"><title>Facebook</title><path d="M47.5 43c0 1.2-.9 2.1-2.1 2.1h-10V30h5.1l.8-5.9h-5.9v-3.7c0-1.7.5-2.9 3-2.9h3.1v-5.3c-.6 0-2.4-.2-4.6-.2-4.5 0-7.5 2.7-7.5 7.8v4.3h-5.1V30h5.1v15.1H10.7c-1.2 0-2.2-.9-2.2-2.1V8.3c0-1.2 1-2.2 2.2-2.2h34.7c1.2 0 2.1 1 2.1 2.2V43" class="ampstart-icon ampstart-icon-fb"></path></svg></a>
+      </li>
+      <li>
+        <a href="#" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML pin trest"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="28.5" viewbox="0 0 43 51"><title>pinterest</title><path d="M8.134 18.748c0-1.6.2-3 .8-4.4.5-1.4 1.2-2.6 2.2-3.6.9-1 2-1.9 3.2-2.6 1.2-.8 2.5-1.3 3.9-1.7 1.5-.4 2.9-.5 4.4-.5 2.2 0 4.3.4 6.2 1.4 1.9.9 3.5 2.3 4.7 4.1 1.2 1.9 1.8 3.9 1.8 6.2 0 1.4-.1 2.7-.4 4-.2 1.3-.7 2.6-1.2 3.8-.6 1.2-1.3 2.3-2.2 3.2-.8.9-1.8 1.7-3.1 2.2-1.2.6-2.5.9-4 .9-1 0-1.9-.3-2.9-.7-.9-.5-1.6-1.1-2-1.9-.1.5-.3 1.4-.6 2.4-.3 1.1-.4 1.7-.5 2-.1.3-.2.9-.4 1.6-.3.7-.4 1.2-.6 1.5-.1.3-.4.7-.7 1.3-.3.6-.6 1.2-1 1.7-.3.5-.7 1.1-1.3 1.8l-.3.1-.2-.2c-.2-2.2-.3-3.6-.3-4 0-1.3.2-2.8.5-4.4.3-1.7.8-3.7 1.4-6.2.6-2.5 1-3.9 1.1-4.4-.5-.9-.7-2.1-.7-3.6 0-1.2.4-2.3 1.1-3.3.8-1.1 1.7-1.6 2.8-1.6.9 0 1.6.3 2.1.9.4.6.7 1.3.7 2.2 0 .9-.3 2.3-1 4.1-.6 1.8-.9 3.1-.9 4 0 .9.3 1.6 1 2.2.6.6 1.4.9 2.3.9.8 0 1.5-.2 2.2-.5.6-.4 1.2-.9 1.6-1.5.5-.6.9-1.3 1.2-2 .4-.8.6-1.5.8-2.4.2-.8.4-1.6.5-2.4.1-.7.1-1.4.1-2.1 0-2.5-.8-4.4-2.3-5.8-1.6-1.4-3.6-2.1-6.1-2.1-2.8 0-5.2 1-7.1 2.8-1.9 1.9-2.9 4.2-2.9 7.1 0 .6.1 1.2.3 1.8.2.6.4 1.1.6 1.4.2.3.4.7.5 1 .2.3.3.5.3.6 0 .4-.1.9-.3 1.6-.2.6-.5 1-.8 1 0 0-.1-.1-.4-.1-.7-.2-1.3-.6-1.9-1.2-.5-.6-1-1.3-1.3-2-.3-.8-.5-1.6-.7-2.4-.2-.7-.2-1.5-.2-2.2z" class="ampstart-icon ampstart-icon-pinterest"></path></svg></a>
+      </li>
+      <li>
+        <a href="#" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML E-mail"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="18.4" viewbox="0 0 56 43"><title>email</title><path d="M10.5 6.4C9.1 6.4 8 7.5 8 8.9v21.3c0 1.3 1.1 2.5 2.5 2.5h34.9c1.4 0 2.5-1.2 2.5-2.5V8.9c0-1.4-1.1-2.5-2.5-2.5H10.5zm2.1 2.5h30.7L27.9 22.3 12.6 8.9zm-2.1 1.4l16.6 14.6c.5.4 1.2.4 1.7 0l16.6-14.6v19.9H10.5V10.3z" class="ampstart-icon ampstart-icon-email"></path></svg></a>
+      </li>
+    </ul>
+    <nav class="ampstart-footer-nav">
+      <ul class="list-reset flex flex-wrap mb3">
+        <li class="px1"><a class="text-decoration-none ampstart-label" href="#">About</a></li>
+        <li class="px1"><a class="text-decoration-none ampstart-label" href="#">Contact</a></li>
+        <li class="px1"><a class="text-decoration-none ampstart-label" href="#">Terms</a></li>
+      </ul>
+    </nav>
+    <small>
+      © Your Company, 2016
+    </small>
+  </footer>
+  <!-- End Footer -->
+</body>
+</html>
